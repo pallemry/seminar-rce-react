@@ -1,10 +1,10 @@
 {
-  "name": "poc",
+  "name": "poc2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dev:inspect": "NODE_OPTIONS=\"--inspect --enable-source-maps\" next dev",
+    "dev:inspect": "NODE_OPTIONS=\"--inspect=1337 --enable-source-maps\" next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
